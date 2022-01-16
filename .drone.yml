@@ -22,3 +22,4 @@ steps:
       from_secret: registry_password
     repo: javanya/next-docker
     tags: ${DRONE_COMMIT_SHA:0:7}
+    
